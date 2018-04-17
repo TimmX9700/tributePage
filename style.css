@@ -1,31 +1,43 @@
-.intro {
-
-}
-
 .content {
   width: 85%;
   margin: auto;
+  border: 0;
 }
+
 .glass {
-
+  padding-bottom: 2px;
+  background-color: white;
 }
 
-body {
-  display: block;
-  margin: 0;
-  padding: 0;
-
+.all {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 70%;
-
+  width: 70%;
 }
+
+body {
+  background-color: cyan !important;
+}
+
 th {
-  text-align: center;
-
+  text-align: center !important;
 }
 
-table, tr, td {
-  border: 1px solid black;
+table {
+  margin-top: 10px;
+  border-spacing: 0;
+}
+
+.learnMore {
+  margin-top: 5px;
+}
+
+tr, td {
+  text-align: left;
+  border: 1px solid gray;
+  background-color: white;
 }
